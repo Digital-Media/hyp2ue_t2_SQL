@@ -70,8 +70,7 @@ Do you think MariaDB provides functions, that are secure enough?
 * PK, FK order?
 * Use two different kind of statements to do this.
 5. Delete the tables itself in the right order
-6. Do some research on "dynamic columns"
-* [dynamic columns](https://mariadb.com/kb/en/dynamic-columns/)
+6. Do some research on "[dynamic columns](https://mariadb.com/kb/en/dynamic-columns/)"
 * Consider which tables of the onlineshop schema are candidates to use dynamic columns.
 * Create an example table, that makes use of dynamic columns. Not the one from the MariaDB documentation!
 That will give 0 points for this step.
@@ -165,6 +164,13 @@ Create a new file with an arbitrary name `<mysolutionfilename>.sql` in the sql f
 This file should transfer the original [data model](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/pictures/onlineshop_alternate.png)
 created by [onlineshop.sql](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/sql/onlineshop.sql)
 into the data model given by the steps of this exercise.
+
+To generate a visualization of the data model goto PHPStorms DataGrip Widget after running `onlineshop.sql`.
+[PHPStorm ER Diagram Visualization](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/pictures/ERDiagramsPHPStorm.png)
+* Click Database in the right upper corner
+* Right click on onlineshop
+* Click on Diagrams at the end of the list
+* Click Show Visualization
 
 There are two ways, how you can handle this. 
 1. Copy onlineshop.sql and alter the original statements in a way that the new data model is created.
