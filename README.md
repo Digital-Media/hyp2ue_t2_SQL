@@ -162,8 +162,8 @@ You can use PHPMyAdmin/Import or the commandline as well.\
 ## part 3 normal forms and ER models
 
 Create a new file with an arbitrary name `<mysolutionfilename>.sql` in the sql folder. The extension has to be `.sql`.
-This file should transfer the original [data model](https://github.com/Digital-Media/hyp2ue-t2-SQL/blob/main/Normalformen_ER_Modell.pdf)
-created by [onlineshop.sql](https://github.com/Digital-Media/hyp2ue-t2-SQL/blob/main/onlineshop.sql)
+This file should transfer the original [data model](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/pictures/onlineshop_alternate.png)
+created by [onlineshop.sql](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/sql/onlineshop.sql)
 into the data model given by the steps of this exercise.
 
 There are two ways, how you can handle this. 
