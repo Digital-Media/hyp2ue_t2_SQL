@@ -1,4 +1,4 @@
-# hyp2ue-t2-SQL
+# hyp2ue_t2_SQL
 
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
@@ -42,7 +42,7 @@ Use multiline comments to answer questions within the SQL file:
 
 ## part 1 DDL 
 
-Use `login.sql` as a starting point.
+Use `sql/login.sql` as a starting point.
 
 1.  Create a table with an appropriate name
 * it should contain the columns `email`, `password` and `active`.
@@ -89,7 +89,7 @@ But you can use DataGrip/PHPStorm or PHPMyAdmin as well.
 
 ## part 2 DML
 
-Use `ue2.sql` as a starting point. See if you can run the script with clicking the right mouse button and choose run `ue2.sql`.
+Use `sql/ue2.sql` as a starting point. See if you can run the script with clicking the right mouse button and choose run `ue2.sql`.
 Otherwise check your [Configuration of the database connection](https://github.com/Digital-Media/hyp2ue-t2-SQL/blob/main/InstallWebdevelopmentEnvironment.pdf).
 
 If you need content for inserting, updating or comparing values look into the tables already provided in the `onlineshop` schema.
@@ -161,7 +161,7 @@ You can use PHPMyAdmin/Import or the commandline as well.\
 
 ## part 3 normal forms and ER models
 
-Create a new file with an arbitrary name `<mysolutionfilename>.sql`. The extension has to be `.sql`.
+Create a new file with an arbitrary name `<mysolutionfilename>.sql` in the sql folder. The extension has to be `.sql`.
 This file should transfer the original [data model](https://github.com/Digital-Media/hyp2ue-t2-SQL/blob/main/Normalformen_ER_Modell.pdf)
 created by [onlineshop.sql](https://github.com/Digital-Media/hyp2ue-t2-SQL/blob/main/onlineshop.sql)
 into the data model given by the steps of this exercise.
