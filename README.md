@@ -13,6 +13,8 @@ As an prerequisite you can get onlineshop.sql as gist:
 
 Get [onlineshop.sql](https://gist.github.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3)
 
+Use `wget https://gist.githubusercontent.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3/raw/8a0be492bd21dc6c904b4e42e3ff17d684b8978f/onlineshop.sql` to get it in linux commandline.
+
 Open a PowerShell or a Terminal on MAC and go to the directory, where your Vagrantfile ist stored:
 `cd <path-to>/fhooe-webdev`
 and start the Virtual Box Image with
