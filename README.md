@@ -11,7 +11,7 @@ But PHPStorm provides a full integration of all technologies we need to use SQL 
 
 As an prerequisite you can get onlineshop.sql as gist:
 
-Get [onlineshop.sql](https://gist.github.com/martinharrer/defaf5451dcdc80238d57b383653fb8b)
+Get [onlineshop.sql](https://gist.github.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3)
 
 Open a PowerShell or a Terminal on MAC and go to the directory, where your Vagrantfile ist stored:
 `cd <path-to>/fhooe-webdev`
