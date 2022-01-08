@@ -9,6 +9,12 @@ For details of Troubleshooting and Basics of virtualization see [Vagrant Install
 Besides DataGrip you can use PHPMyAdmin, MySQLWorkbench and many other Tools for database administration to run SQL-Scripts.
 But PHPStorm provides a full integration of all technologies we need to use SQL in a web application.
 
+As an prerequisite you can get some resources as gist:
+
+Get [onlineshop.sql](https://gist.github.com/martinharrer/defaf5451dcdc80238d57b383653fb8b)
+
+Get [initDB()](https://gist.github.com/martinharrer/28fbd928e4129d6ea5f5dc3e3c848ecb)
+
 Open a PowerShell or a Terminal on MAC and go to the directory, where your Vagrantfile ist stored:
 `cd <path-to>/fhooe-webdev`
 and start the Virtual Box Image with
