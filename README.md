@@ -2,7 +2,7 @@
 
 ## Installation
 
-See [INSTALL.md] (https://github.com/Digital-Media/hyp2ue_t2_SQL/INSTALL.md)
+See [INSTALL] (https://github.com/Digital-Media/hyp2ue_t2_SQL/INSTALL.md)
 
 ## Install or Restore onlineshop with Docker
 
