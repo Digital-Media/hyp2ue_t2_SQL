@@ -19,7 +19,11 @@ As an prerequisite you can get onlineshop.sql as gist:
 
 Get [onlineshop.sql](https://gist.github.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3)
 
-Use `wget https://gist.githubusercontent.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3/raw/8a0be492bd21dc6c904b4e42e3ff17d684b8978f/onlineshop.sql` to get it in linux commandline.
+Use
+```shell
+wget https://gist.githubusercontent.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3/raw/8a0be492bd21dc6c904b4e42e3ff17d684b8978f/onlineshop.sql
+``` 
+to get it in a commandline.
 
 Open a PowerShell or a Terminal on MAC and go to the directory, where your Vagrantfile ist stored:
 `cd <path-to>/fhooe-webdev`
@@ -99,7 +103,9 @@ That will give 0 points for this step.
 
 The Script created for this exercise should run without errors.
 For example:
-`user@ubuntu1/mycode$ sudo mysql –uonlineshop –pgeheim <login.sql`\
+```shell
+user@ubuntu1/mycode$ sudo mysql –uonlineshop –pgeheim <login.sql
+```
 `item_name       COLUMN_JSON(dynamic_cols)`\
 `MariaDB T-shirt {"size":"XL","color":"blue"}`\
 `Thinkpad Laptop {"color":"black","price":500}`
@@ -171,12 +177,14 @@ and data aggregation jobs.
 
 To test your script run `onlineshop.sql` before `ue2.sql`. Both scripts must not return errors.
 You can use PHPStorm/DataGrip and run for this. 
-You can use PHPMyAdmin/Import or the commandline as well.\
-`cd <path-to-onlineshop.sql>`\
-`sudo bash`\
-`mariadb`\
-`[MariaDB (none)] \. onlineshop.sql`\
-`[MariaDB (none)] \. ue2.sql`
+You can use PHPMyAdmin/Import or the commandline as well.
+```shell
+cd <path-to-onlineshop.sql>
+sudo bash
+mariadb
+[MariaDB (none)] \. onlineshop.sql
+[MariaDB (none)] \. ue2.sql
+```
 
 ## part 3 normal forms and ER models
 
