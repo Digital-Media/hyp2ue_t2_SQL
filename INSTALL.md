@@ -17,9 +17,7 @@ Use `wget https://gist.githubusercontent.com/martinharrer/28fbd928e4129d6ea5f5dc
 See [fhooe-web-dock] (https://github.com/Digital-Media/fhooe-web-dock)
 
 ### Get repo with Docker:
-```shell
-docker exec -it webapp /bin/bash -c "cd /var/www/html && git clone https://github.com/Digital-Media/hyp2ue_oo.git"
-```
+
 
 ## Vagrant
 

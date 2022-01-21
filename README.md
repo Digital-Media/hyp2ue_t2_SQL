@@ -4,6 +4,8 @@
 
 See [INSTALL.md] (https://github.com/Digital-Media/hyp2ue_t2_SQL/INSTALL.md)
 
+## Execises
+
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
 To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
@@ -33,22 +35,30 @@ Login with onlineshop/geheim and go to the tab import.
 
 A third option is to do this in a commandline. With the provided Vagrant image, the steps below are necessary.
 
-`vagrant ssh`\
-`cd /var/www/html/code/hyp2ue-t2-SQL`\
-`sudo bash`\
-`mariadb`\
-`MariaDB [(none)]> \. onlineshop.sql`
+```shell
+vagrant ssh
+cd /var/www/html/code/hyp2ue-t2-SQL
+sudo bash
+mariadb
+```
+```shell
+MariaDB [(none)]> \. onlineshop.sql
+```
 
 Each step of the lessons should be marked with a comment like this:
 
-`-- 1`
+```shell
+-- 1
+```
 
 Use multiline comments to answer questions within the SQL file:
 
-`/*`\
-` You need the blank '-- ' to make it an SQL comment`\
-` not writing the blank --causes a syntax error`\
-`*/`
+```shell
+/*
+ You need the blank '-- ' to make it an SQL comment
+ not writing the blank --causes a syntax error
+*/
+```
 
 ## part 1 DDL 
 
