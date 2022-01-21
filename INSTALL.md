@@ -6,12 +6,6 @@
 
 See [fhooe-web-dock] (https://github.com/Digital-Media/fhooe-web-dock)
 
-To install onlineshop database submit this in Powershell (Windows) or other terminal (MAC, Linux)
-
-```shell
-docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
-```
-
 ## Vagrant
 
 See [fhooe-webdev] (https://github.com/Digital-Media/fhooe-webdev)
