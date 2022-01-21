@@ -4,7 +4,7 @@
 
 See [INSTALL.md] (https://github.com/Digital-Media/hyp2ue_t2_SQL/INSTALL.md)
 
-## Restore onlineshop with Docker
+## Install or Restore onlineshop with Docker
 
 ```shell
 docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
