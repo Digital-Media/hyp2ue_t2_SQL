@@ -1,5 +1,9 @@
 # hyp2ue_t2_SQL
 
+## Installation
+
+See [INSTALL.md] (https://github.com/Digital-Media/hyp2ue_t2_SQL/INSTALL.md)
+
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
 To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
