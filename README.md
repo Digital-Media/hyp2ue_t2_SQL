@@ -4,6 +4,10 @@
 
 See [Installation](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/INSTALL.md)
 
+To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
+The database is installed in a Virtual Box and maintained with Vagrant or in a Docker Image .
+For details of Troubleshooting and Basics of virtualization see [Vagrant Installation](https://github.com/Digital-Media/fhooe-webdev/blob/master/README.md) and its [Troubleshooting Guide](https://github.com/Digital-Media/fhooe-webdev/wiki)
+
 ## Install or Restore onlineshop with Docker
 
 ```shell
@@ -14,22 +18,10 @@ docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/online
 
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
-To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
-The database is installed in a Virtual Box Image and maintained with Vagrant.
-For details of Troubleshooting and Basics of virtualization see [Vagrant Installation](https://github.com/Digital-Media/fhooe-webdev/blob/master/README.md) and its [Troubleshooting Guide](https://github.com/Digital-Media/fhooe-webdev/wiki)
+
 
 Besides DataGrip you can use PHPMyAdmin, MySQLWorkbench and many other Tools for database administration to run SQL-Scripts.
 But PHPStorm provides a full integration of all technologies we need to use SQL in a web application.
-
-As an prerequisite you can get onlineshop.sql as gist:
-
-Get [onlineshop.sql](https://gist.github.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3)
-
-Use
-```shell
-wget https://gist.githubusercontent.com/martinharrer/846dbd667e35ba8ccbe04bd96b1aadd3/raw/8a0be492bd21dc6c904b4e42e3ff17d684b8978f/onlineshop.sql
-``` 
-to get it in a commandline.
 
 Open a PowerShell or a Terminal on MAC and go to the directory, where your Vagrantfile ist stored:
 `cd <path-to>/fhooe-webdev`
