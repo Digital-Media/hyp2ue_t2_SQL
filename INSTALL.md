@@ -2,13 +2,11 @@
 
 ## Docker
 
-### Install fhooe-web-dock
-
-See [fhooe-web-dock] (https://github.com/Digital-Media/fhooe-web-dock)
+See [fhooe-web-dock](https://github.com/Digital-Media/fhooe-web-dock)
 
 ## Vagrant
 
-See [fhooe-webdev] (https://github.com/Digital-Media/fhooe-webdev)
+See [fhooe-webdev](https://github.com/Digital-Media/fhooe-webdev)
 
 ## Get repo
 
