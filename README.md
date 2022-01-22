@@ -1,5 +1,7 @@
 # hyp2ue_t2_SQL
 
+This repository provides Exercises for web development environment designed for the use in web development classes at the [Upper Austria University of Applied Sciences (FH Oberösterreich), Hagenberg Campus](https://www.fh-ooe.at/en/hagenberg-campus/).
+
 ## Installation
 
 See [INSTALL.md](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/INSTALL.md)
