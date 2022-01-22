@@ -6,9 +6,8 @@ See [INSTALL.md](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/INSTAL
 
 To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
 The database is installed in a Virtual Box and maintained with Vagrant or in a Docker Image .
-For details of Troubleshooting and Basics of virtualization see [Vagrant Installation](https://github.com/Digital-Media/fhooe-webdev/blob/master/README.md) and its [Troubleshooting Guide](https://github.com/Digital-Media/fhooe-webdev/wiki)
 
-## Install or Restore onlineshop with Docker
+## Install or Restore onlineshop database with Docker
 
 ```shell
 docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
