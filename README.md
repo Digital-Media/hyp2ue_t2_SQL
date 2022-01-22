@@ -2,7 +2,7 @@
 
 ## Installation
 
-See [Installation](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/INSTALL.md)
+See [INSTALL.md](https://github.com/Digital-Media/hyp2ue_t2_SQL/blob/main/INSTALL.md)
 
 To edit SQL-Statements you can use any text editor, but I would recommend using PHPStorm with its DataGrip plugin.
 The database is installed in a Virtual Box and maintained with Vagrant or in a Docker Image .
