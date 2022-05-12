@@ -212,7 +212,7 @@ All tables are in 1NF unless otherwise stated.
 In this exercise we will focus on the second scenario with alter table statements.
 
 1. Have a look at the data model and see which tables already meet 2NF or not.
-* Which tables meet 1NF at the first glance? Give a rationale for this.
+* Which tables meet 2NF at the first glance? Give a rationale for this.
 * Which tables need a closer look to decide on this?
 * Give a rationale for each of these tables, why they meet 2NF or not.
 
