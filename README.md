@@ -15,7 +15,7 @@ The database is installed in a Virtual Box and maintained with Vagrant or in a D
 docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
 ```
 
-## Execises
+## Exercises
 
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
