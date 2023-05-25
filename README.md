@@ -231,14 +231,15 @@ as lookup tables. Give reasons for using lookup tables and how they are used in 
    
 6. Change the tables `product` and `product_category` in a way that they meet 3NF.
 
-7. Look at the table `payment`. Three columns do not have speaking names. Think of a solution to store as many 
-attributes and values for different payment variants as necessary. 
-Implement the variant discussed in UE1. The payment table should be linked to the table `user` in a proper way. 
+7. Look at the table `payment`. Three columns do not have speaking names. Add key columns with alter table 
+to provide a column to store speaking names for the values.
+Additionally think of a solution to store as many attributes and values for different payment variants as necessary. 
+Implement the variant discussed in UE1 as payment_v2. The payment_v2 table should be linked to the table `user` in a proper way. 
    
 8. Rework the table `order` in a way that the columns for payment match one of the 3 variants of 7.
 
 9. Create a new table `user_visit` based on the columns of `user` and `visit` (CREATE TABLE .. AS SELECT + JOIN).
 Which problems will you face, if the tables `user` and `visit` would no longer exist? What happens, when user login.
 How do people change their password, emails, try to login or register? How is this stored in this case? 
-What information can be queried from the new table (append only instead of updates) that has not been 
+What information can be queried from the new table (append only instead of updates), that has not been 
 there, when the information was stored in `user` and updated later.   
