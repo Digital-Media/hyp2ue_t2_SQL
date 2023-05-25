@@ -231,10 +231,9 @@ as lookup tables. Give reasons for using lookup tables and how they are used in 
    
 6. Change the tables `product` and `product_category` in a way that they meet 3NF.
 
-7. Look at the table `payment`. Three columns do not have speaking names. Change the data model in a way
-that you know, what is stored in a special column. Although think of solutions to store as many attributes for different
-payment variants as necessary. Implement the variant discussed in UE1. The payment table 
-should be linked to the table `user` in a proper way. 
+7. Look at the table `payment`. Three columns do not have speaking names. Think of a solution to store as many 
+attributes and values for different payment variants as necessary. 
+Implement the variant discussed in UE1. The payment table should be linked to the table `user` in a proper way. 
    
 8. Rework the table `order` in a way that the columns for payment match one of the 3 variants of 7.
 
