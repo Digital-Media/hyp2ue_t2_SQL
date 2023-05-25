@@ -15,7 +15,7 @@ The database is installed in a Virtual Box and maintained with Vagrant or in a D
 docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
 ```
 
-## Execises
+## Exercises
 
 Goal of the three lessons is to learn SQL. We start with DDL und focus on DML in the second part. 
 Part three deals with normal forms and ER models. 
@@ -239,7 +239,7 @@ should be linked to the table `user` in a proper way.
 8. Rework the table `order` in a way that the columns for payment match one of the 3 variants of 7.
 
 9. Create a new table `user_visit` based on the columns of `user` and `visit` (CREATE TABLE .. AS SELECT + JOIN).
-Which problems will you face it the tables `user` and `visit` would no longer exist? What happens, when user login.
+Which problems will you face, if the tables `user` and `visit` would no longer exist? What happens, when user login.
 How do people change their password, emails, try to login or register? How is this stored in this case? 
 What information can be queried from the new table (append only instead of updates) that has not been 
 there, when the information was stored in `user` and updated later.   
